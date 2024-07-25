@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home page</title>
+    <link rel="icon" href="favicon.png">
+   <style>
+    .info{
+        width: 90%;
+    }
+    .nav a{
+            float:left;
+            color: #282626;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+            
+           
+        }
+        .search{
+            padding: 14px 16px;
+        }
+        .b1{
+            width: 210px;
+            background-color: #4681f4;
+            border-radius: 10px;
+            border-color:#4681f4;
+            margin-top: 30px;
+        }
+        .more-info{
+            vertical-align: top;
+        }
+        .b2{
+            background-color: #4681f4;
+            border-radius: 10px;
+            border-color:#4681f4;  
+        }
+   </style>
+   
+</head>
+<body>
+    <header>
+        <div class="nav">
+            <a  href="index.html">Home</a>
+            <a href="cources.html">Courses</a>
+            <a href="contact.html" style="background-color: rgb(96, 96, 96); margin-right: 12px;">Contact us</a>
+           
+            <button style="float: right;">
+              <a href="contact.html" >Sign Up</a>
+            </button>
+        </div>
+        <div class="search">
+            <input type="text" placeholder="search">
+        </div>
+        <h1>
+            Contact us
+        </h1> 
+    </header>
+    <main>
+        <div style="
+            margin-bottom: 30px;
+            display: grid;
+            margin-left: 10px;
+            grid-template-columns:700px 500px 
+            "
+            >
+            <div >
+                <form> 
+                    
+                    <fieldset class="info">
+                        <br>
+                        <label for="name">Name : </label> <br> <br>
+                        <input type="text" id="name" >
+                        <br>
+                        <br>
+                        <label for="email">Email : </label> <br> <br>
+                        <input type="Email" id="email" >
+                        <br>
+                        <br>
+                        <label for="message">Message: </label> <br> <br>
+                        <textarea cols="30" rows="5" id="message"></textarea>
+                        <br>
+                        <br>
+                        <button class="b1">
+                            Send Message
+                        </button>
+                        
+                
+                    </fieldset>
+                </form>
+            </div>
+            <div >
+                <h1 class="more-info" >Join our newsletter</h1>
+                <p>Add your details and you'll receie our emai, </p>
+                <p>the updates on the given courses.</p>
+                <label for="email">Email : </label> <br> <br>
+                <input type="Email" id="email" placeholder="Enter your Email address.." >
+                <button class="b2">
+                    sign up &rarr;
+                </button>
+                <h3>Alternative contact us at :</h3>
+                <p>info@learnweb.com</p>
+                <p>+251-94878923</p>
+                <p>P.O Box 760</p>
+            
+                
+            </div>
+        </div>
+   </main>
+    <br>
+    <br>
+    <footer>
+            <h4>Copyright 2024 &copy; </h4>
+    </footer>
+</body>
+</html>
